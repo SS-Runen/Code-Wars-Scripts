@@ -43,3 +43,13 @@ def decode(string:str):
             new_string += char
     
     return new_string
+
+
+def main():
+    print(f"Encode `hi there`:\n{encode('hi there'))}")
+    print(f"Decode `h3 th2r2`\n{decode('h3 th2r2')}")
+
+    return None
+
+if __name__ == "__main__":
+    main()
