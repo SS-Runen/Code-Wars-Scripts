@@ -46,7 +46,7 @@ def decode(string:str):
 
 
 def main():
-    print(f"Encode `hi there`:\n{encode('hi there'))}")
+    print(f"Encode `hi there`:\n{encode('hi there')}")
     print(f"Decode `h3 th2r2`\n{decode('h3 th2r2')}")
 
     return None
