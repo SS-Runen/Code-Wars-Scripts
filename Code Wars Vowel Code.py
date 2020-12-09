@@ -22,7 +22,7 @@ def encode(string:str):
         'a': 1, 'e': 2, 'i': 3, 'o': 4, 'u': 5
     }
 
-    for char in new_string:
+    for char in string:
         if char in dict_vowel_table:
             new_string += str(dict_vowel_table[char])
         else:
@@ -50,6 +50,7 @@ def main():
     print(f"Decode `h3 th2r2`\n{decode('h3 th2r2')}")
 
     return None
+
 
 if __name__ == "__main__":
     main()
